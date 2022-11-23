@@ -1,2 +1,4 @@
 streamlit==1.12.2
 scikit-learn
+pandas
+pefile

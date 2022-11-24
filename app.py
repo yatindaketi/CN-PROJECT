@@ -4,8 +4,6 @@ import pefile
 import array
 import math
 import pickle
-from sklearn.ensemble._forest import RandomForestClassifier
-
 
 
 
@@ -195,7 +193,7 @@ def extract_infos(fpath):
 
 
 
-with open('classifier_feats','rb') as f:
+with open('model_feats','rb') as f:
     clf,features = pickle.load(f)
 
 
